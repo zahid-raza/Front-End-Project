@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 80px;
+    background-color: #283618;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 60px;
+    width: 170px;
+}
+
+.logo{
+    background-image: url(XARRRYlogo.png);
+    background-size: cover;
+    height: 60px;
+    width: 170px;
+}
+
+.border {
+    border: 1.2px solid transparent;
+}
+
+.border:hover{
+    border: 1.2px solid white;
+}
+
+/** box2 **/
+
+.add-first{
+    color: #fefae0;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #bc6c25;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color: #fefae0;
+    width: 50px;
+    text-align:center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-select>option{
+    background-color: #fefae0;
+    
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #283618;
+}
+
+.nav-search:hover{
+    border: 2px solid #bc6c25;
+}
+
+/* Box 4 */
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Box 6 */
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Panel */
+
+.panel{
+    height: 40px;
+    background-color: #606c38;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fefae0;
+    
+}
+
+.panel-options a{
+    display: inline;
+    margin-left: 20px;
+}
+
+.panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section  */
+
+.hero-section{
+    background-image: url(heroimg.png);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    
+    
+
+}
+
+.hero-shop{
+    background-color: white;
+    color: rgb(165, 124, 124);
+    border: c;
+    height: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: medium;
+    width: 9%;
+    
+    margin-bottom: 180px;
+    margin-right: 51%;
+}
+
+/* .hero-button :hover{
+    border: 2px solid #bc6c25;
+} */
+
+
+/* Shop-section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #606c38;
+}
+
+.box{
+    background-color: white;
+    height: 380px;
+    width: 22%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.box-img{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.box-content h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+/* Footer  */
+
+
+
+.foot-panel1{
+    background-color:#bc6c25;
+    color:white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.foot-panel2{
+    background-color: #283618;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.75rem;
+    margin-top: 10px;
+    color: #fefae0;
+}
+
+.foot-panel3{
+    background-color:#283618;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-panel4{
+    background-color: #9CC072;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.terms{
+    padding-top: 18px;
+}
+
+.copyright{
+    padding-top: 5px;
+}
